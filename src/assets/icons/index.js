@@ -6,9 +6,10 @@ import pinterest from './pinterest.svg'
 import twitter from './twitter.svg'
 import youtube from './youtube.svg'
 import instagram from './instagram.svg'
-import LinkedIn from './LinkedIn.svg'
+import LinkedIn from './linkedin.svg'
 import mail from './mail.svg'
 import facebook from './facebook.svg'
+import hydraLogo from './hydra_logo.svg'
 
 
 export {
@@ -23,4 +24,5 @@ export {
     LinkedIn,
     mail,
     facebook,
+    hydraLogo,
 }
