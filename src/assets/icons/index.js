@@ -10,6 +10,7 @@ import LinkedIn from './linkedin.svg'
 import mail from './mail.svg'
 import facebook from './facebook.svg'
 import hydraLogo from './hydra_logo.svg'
+import arrowRightSmall from './arrow-small-right.svg'
 
 
 export {
@@ -25,4 +26,5 @@ export {
     mail,
     facebook,
     hydraLogo,
+    arrowRightSmall,
 }

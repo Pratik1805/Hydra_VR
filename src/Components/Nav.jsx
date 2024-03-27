@@ -4,9 +4,9 @@ import { navLinks } from '../Constants'
 import { hamburger,hydraLogo } from '../assets/icons'
 import Button from './Button'
 
-const Nav = () => {
+const  Nav = () => {
   return (
-    <header className='bg-primary px-4 py-6 absolute z-10 w-full gap-5'>
+    <header className='bg-primary padding-x py-8 absolute z-10 w-full gap-5'>
         <nav className='flex flex-1 justify-between items-center'>
             <div className='flex items-center gap-4'>
             <a href="/">
@@ -28,7 +28,7 @@ const Nav = () => {
                 ))}
             </ul>
 
-            <div className='flex gap-2 max-lg:hidden '>
+            <div className='flex gap-6 max-lg:hidden '>
                 <Button label="CONTACT US" backgroundColor="bg-transparent"/>
                 <Button label="JOIN HYDRA"  border = "bg-primary"/>
             </div>

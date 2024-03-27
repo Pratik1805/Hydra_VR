@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Button = ({label, backgroundColor, border}) => {
+const Button = ({label, backgroundColor, border,fullWidth}) => {
   return (
-    <button className={`flex justify-center items-center gap-2 px-4 py-6 border text-lg leading-none text-white font-montserrat 
+    <button className={`flex justify-center items-center px-3 py-3 border text-lg  text-white font-montserrat 
     ${backgroundColor 
         ? `${backgroundColor} ${border}`
         : "bg-button-gradient border-primary" 
     }
-     rounded-full border-2` } >
+    rounded-full ${fullWidth && "w-full"}  border-2` } >
         {label}
     </button>
   )

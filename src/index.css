@@ -13,7 +13,12 @@
 }
 
 .bg-button-gradient{
-    background: linear-gradient(45deg, #8176AF, #C0B7E8);
+    background: linear-gradient(145deg, #8176AF, #C0B7E8);
+}
+.gradient{
+  background: -webkit-linear-gradient(#C0B7E8, #8176AF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @layer components {
