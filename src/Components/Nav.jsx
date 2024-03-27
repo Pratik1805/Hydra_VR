@@ -6,8 +6,8 @@ import Button from './Button'
 
 const  Nav = () => {
   return (
-    <header className='bg-primary padding-x py-8 absolute z-10 w-full gap-5'>
-        <nav className='flex flex-1 justify-between items-center'>
+    <header className='bg-primary padding-x py-8 absolute z-10 w-full '>
+        <nav className='flex max-container justify-between items-center'>
             <div className='flex items-center gap-4'>
             <a href="/">
                 <img src={hydraLogo} alt="hydra-logo"width={102} height={103} />

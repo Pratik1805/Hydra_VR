@@ -9,10 +9,10 @@ const Hero = () => {
       id="Home"
       className="w-full flex flex-col xl:flex-row min-h-screen max-container gap-10 justify-center max-sm:flex-col-reverse"
     >
-      <div className=" relative xl: w-2/5 max-sm:w-full flex flex-col justify-center items-start max-sm:items-center">
-        <h1 className="text-white text-6xl font-montserrat mt-2 font-semibold leading-normal max-sm:text-[36px] ">
-          <span className="gradient">Dive</span> Into The
-          Depths <br/>Of<span className="gradient"> Virtual Reality</span>
+      <div className=" relative xl:w-2/5  flex flex-col justify-center items-start max-sm:items-center max-sm:text-center mt-5 max-sm:pt-2">
+        <h1 className="text-white text-8xl font-montserrat font-semibold leading-normal max-sm:text-[72px] ">
+          <span className="gradient">Dive</span> Into The Depths Of
+          <span className="gradient"> Virtual Reality</span>
         </h1>
 
         <p className=" text-white mt-4  max-sm:hidden font-palanquin ">
@@ -22,16 +22,23 @@ const Hero = () => {
         </p>
 
         <div className="mt-6 flex justify-center items-center max-sm:w-full">
-          <Button label="BUILD YOUR WORLD" border="bg-primary" fullwidth/>
-          <img src={arrowRightSmall} alt="arrow-right" className="max-sm:hidden"/>
+          <Button label="BUILD YOUR WORLD" border="bg-primary" fullwidth />
+          <img
+            src={arrowRightSmall}
+            alt="arrow-right"
+            className="max-sm:hidden"
+          />
         </div>
       </div>
 
-      <div className="flex justify-center items-center bg-center mt-2">
-        <img src={hero} alt="hero"
-        className=" object-contain relative z-10 "
-        width={400}
-        height={400} />
+      <div className="flex flex-1 justify-center items-center bg-cover bg-center xl:min-h-screen max-xl:py-40 mt-2 ">
+        <img
+          src={hero}
+          alt="hero"
+          className=" object-contain relative z-10 "
+          width={610}
+          height={510}
+        />
       </div>
     </section>
   );

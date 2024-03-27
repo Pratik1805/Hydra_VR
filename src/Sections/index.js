@@ -5,6 +5,7 @@ import Construct from './Construct';
 import Footer from './Footer';
 import Subscribe from './Subscribe';
 import Technologies from './Technologies';
+import Contact from './Contact';
 
 export{
     Hero,
@@ -14,4 +15,5 @@ export{
     Footer,
     Subscribe,
     Technologies,
+    Contact,
 }
