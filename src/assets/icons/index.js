@@ -13,7 +13,7 @@ import hydraLogo from './hydra_logo.svg'
 import arrowRightSmall from './arrow-small-right.svg'
 import circleLeftArrow from './chevron-circle-left.svg'
 import circleRightArrow from './chevron-circle-right.svg'
-
+import arrowRightAbout from './arrow_right_about.svg'
 
 export {
     chevrondown,
@@ -31,4 +31,5 @@ export {
     arrowRightSmall,
     circleLeftArrow,
     circleRightArrow,
+    arrowRightAbout,
 }

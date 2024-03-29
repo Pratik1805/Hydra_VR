@@ -4,7 +4,7 @@ import Carousel from "../Components/Carousel";
 
 const Contact = () => {
   return (
-    <div>
+
       <section className="contact rounded-3xl flex justify-evenly items-center gap-14 overflow-hidden sm:max-w-[100%] max-md:max-w-sm max-md:max-h-28 m-auto ">
       {contact.map((item) => (
         <div
@@ -23,7 +23,7 @@ const Contact = () => {
         <Carousel></Carousel>
       </div>
     </section>
-    </div>
+
   );
 };
 

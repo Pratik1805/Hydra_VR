@@ -1,4 +1,4 @@
-import About from './About.svg'
+import about from './About.svg'
 import Education from './Education.svg'
 import hero from './hero.svg'
 import Hydra from './Hydra.png'
@@ -12,7 +12,7 @@ import vive from './vive.svg'
 import wave from  './wave.svg'
 import verticalLine from './vertical_Line.svg'
 export{
-    About,
+    about,
     Education,
     hero,
     Hydra,
