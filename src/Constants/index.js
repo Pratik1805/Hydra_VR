@@ -9,11 +9,13 @@ export const navLinks = [
 
 export const contact = [
     {
+        id:1,
         imgURl: location,
         name: "Pay Us a Visit",
         value: "Union St, Seattle, WA 98101, United States"
     },
     {
+        id:2,
         imgURl: phone,
         name: "Give Us a call",
         value: "(110) 1111-1010"

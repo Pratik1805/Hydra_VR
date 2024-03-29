@@ -6,7 +6,7 @@ import Button from './Button'
 
 const  Nav = () => {
   return (
-    <header className='bg-primary padding-x py-8 absolute z-10 w-full '>
+    <header className='bg-primary padding-x py-2 absolute z-10 w-full '>
         <nav className='flex max-container justify-between items-center'>
             <div className='flex items-center gap-4'>
             <a href="/">
@@ -17,7 +17,7 @@ const  Nav = () => {
             </a>
             </div>
 
-            <ul className='flex flex-1 justify-center items-center gap-16 max-lg:hidden'>
+            <ul className='flex flex-1 justify-center items-center gap-16 max-xl:hidden'>
                 {navLinks.map((item) => (
                     <li>
                         <a href={item.href}
@@ -28,12 +28,12 @@ const  Nav = () => {
                 ))}
             </ul>
 
-            <div className='flex gap-6 max-lg:hidden '>
+            <div className='flex gap-6 max-xl:hidden '>
                 <Button label="CONTACT US" backgroundColor="bg-transparent"/>
                 <Button label="JOIN HYDRA"  border = "bg-primary"/>
             </div>
 
-            <div className='max-lg:block hidden'>
+            <div className='max-xl:block hidden'>
                 <img src={hamburger} alt="hamburger" 
                 width={25}
                 height={25}
