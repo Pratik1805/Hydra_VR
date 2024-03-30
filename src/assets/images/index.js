@@ -11,6 +11,7 @@ import unrealEngine from './unreal_engine.svg'
 import vive from './vive.svg'
 import wave from  './wave.svg'
 import verticalLine from './vertical_Line.svg'
+import horizontalLine from './horizontal_line.svg'
 export{
     about,
     Education,
@@ -25,4 +26,5 @@ export{
     vive,
     wave,
     verticalLine,
+    horizontalLine,
 }

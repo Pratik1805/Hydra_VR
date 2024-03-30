@@ -1,5 +1,5 @@
 import Nav from "./Components/Nav";
-import { About, Contact, Hero } from "./Sections/index";
+import { About, Build, Contact, Hero } from "./Sections/index";
 function App() {
   return (
     <main className=" relative">
@@ -12,6 +12,9 @@ function App() {
       </section>
       <section className="padding bg-primary">
        <About/>
+      </section>
+      <section className="padding bg-primary">
+       <Build/>
       </section>
     </main>
   );

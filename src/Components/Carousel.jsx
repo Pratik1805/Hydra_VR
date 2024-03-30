@@ -23,7 +23,7 @@ const Carousel = () => {
         className=" whitespace-nowrap transition transform duration-[0.3s] w-[85%]"
       >
         {contact.map((item) => (
-          <CarouselItem item={item}/>
+          <CarouselItem item={item} key={item.name}/>
         ))}
       </div>
 
@@ -31,12 +31,12 @@ const Carousel = () => {
         <button onClick={() => {
             updateIndex(activeIndex - 1);
         }}>
-          <img src={circleLeftArrow} alt="" srcset="" />
+          <img src={circleLeftArrow} alt="" />
         </button>
         <button onClick={() => {
             updateIndex(activeIndex + 1);
         }}>
-          <img src={circleRightArrow} alt="" srcset="" />
+          <img src={circleRightArrow} alt="" />
         </button>
       </div>
     </div>

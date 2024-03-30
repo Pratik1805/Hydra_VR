@@ -1,4 +1,5 @@
 import { location, mail, phone } from "../assets/icons"
+import { Education, outdoor, selfCare, simulation } from "../assets/images"
 
 export const navLinks = [
     { href: "#about-us", label: "About Us"},
@@ -25,4 +26,31 @@ export const contact = [
         name: "Send Us a Message",
         value: "Contact@HydraVTech.com"
     },
+]
+export const Services = [
+    {
+        id:1,
+        imgURl: simulation,
+        heading: "SIMULATION",
+        description: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
+    },
+    {
+        id:2,
+        imgURl: Education,
+        heading: "EDUCATION",
+        description: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
+    },
+    {
+        id:3,
+        imgURl: selfCare,
+        heading: "SELF-CARE",
+        description: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
+    },
+    {
+        id:4,
+        imgURl: outdoor,
+        heading: "OUTDOOR",
+        description: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
+    },
+
 ]

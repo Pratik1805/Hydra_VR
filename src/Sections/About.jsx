@@ -5,10 +5,10 @@ import { about } from "../assets/images";
 
 const About = () => {
   return (
-    <section>
-      <div className="flex justify-evenly items-center py-2 flex-col sm:flex-row max-w-full">
+    <section id="about-us">
+      <div className="flex justify-evenly items-center py-2 m-auto flex-col sm:flex-row max-w-[80%]">
         <h1
-          className=" text-slate-300 font-montserrat sm:text-6xl text-2xl px-2 py-4
+          className=" text-slate-300 font-montserrat sm:text-6xl text-3xl px-2 py-4
         sm:text-left text-center"
         >
           <span className=" text-white font-semibold">INTRODUCTION</span> <br />{" "}
@@ -17,7 +17,6 @@ const About = () => {
         <img
           src={arrowRightAbout}
           alt="arrow right"
-          srcset=""
           className="hidden md:block"
         />
         <p className="text-slate-300 font-palanquin text-lg text-wrap max-w-[80%] hidden md:block px-2 text-justify">
@@ -29,7 +28,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="flex justify-evenly items-center py-2 flex-col sm:flex-row max-w-full">
+      <div className="flex justify-evenly items-center py-2 flex-col sm:flex-row max-w-[80%] m-auto">
         <div className="flex flex-1 justify-center items-center bg-cover bg-center py-14 px-2 mt-4 max-w-xl">
           <img
             src={about}
@@ -39,9 +38,9 @@ const About = () => {
         </div>
 
         <div className=" relative xl:w-2/5 flex flex-col justify-center items-start  max-sm:items-center max-sm:text-center ">
-          <h1 className="text-slate-300 font-montserrat sm:text-6xl text-2xl px-2 py-4
+          <h1 className="text-slate-300 font-montserrat sm:text-6xl text-3xl px-2 py-4
         sm:text-left text-center">
-            <span className="text-white">ABOUT</span> <br /> HYDAR VR
+            <span className="text-white font-semibold">ABOUT</span> <br /> HYDAR VR
           </h1>
 
           <p className=" text-white mt-4 font-palanquin text-lg text-justify ">

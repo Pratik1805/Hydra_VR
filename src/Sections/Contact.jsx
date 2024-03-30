@@ -5,7 +5,7 @@ import Carousel from "../Components/Carousel";
 const Contact = () => {
   return (
 
-      <section className="contact rounded-3xl flex justify-evenly items-center gap-14 overflow-hidden sm:max-w-[100%] max-md:max-w-sm max-md:max-h-28 m-auto ">
+      <section className="contact rounded-3xl flex justify-evenly items-center gap-14 overflow-hidden sm:max-w-[80%] max-md:max-w-sm max-md:max-h-28 m-auto ">
       {contact.map((item) => (
         <div
           key={item.name}
