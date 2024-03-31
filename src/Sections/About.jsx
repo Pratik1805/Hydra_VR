@@ -6,10 +6,10 @@ import { about } from "../assets/images";
 const About = () => {
   return (
     <section id="about-us">
-      <div className="flex justify-evenly items-center py-2 m-auto flex-col sm:flex-row max-w-[80%]">
+      <div className="flex justify-evenly items-center py-2 m-auto flex-col sm:flex-row w-full">
         <h1
-          className=" text-slate-300 font-montserrat sm:text-6xl text-3xl px-2 py-4
-        sm:text-left text-center"
+          className=" text-slate-300 font-montserrat sm:text-6xl text-3xl px-2
+        sm:text-left text-center leading-normal"
         >
           <span className=" text-white font-semibold">INTRODUCTION</span> <br />{" "}
           TO HYDRA VR
@@ -17,9 +17,9 @@ const About = () => {
         <img
           src={arrowRightAbout}
           alt="arrow right"
-          className="hidden md:block"
+          className="hidden xl:block"
         />
-        <p className="text-slate-300 font-palanquin text-lg text-wrap max-w-[80%] hidden md:block px-2 text-justify">
+        <p className="text-slate-300 font-palanquin text-lg  max-w-[80%] hidden md:block px-4 text-justify">
           Vitae sapien pellentesque habitant morbi tristique senectus et netus
           et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit
           amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra
@@ -39,7 +39,7 @@ const About = () => {
 
         <div className=" relative xl:w-2/5 flex flex-col justify-center items-start  max-sm:items-center max-sm:text-center ">
           <h1 className="text-slate-300 font-montserrat sm:text-6xl text-3xl px-2 py-4
-        sm:text-left text-center">
+        sm:text-left text-center leading-normal">
             <span className="text-white font-semibold">ABOUT</span> <br /> HYDAR VR
           </h1>
 

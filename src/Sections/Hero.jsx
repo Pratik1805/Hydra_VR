@@ -7,10 +7,10 @@ const Hero = () => {
   return (
     <section
       id="Home"
-      className="w-full flex flex-col xl:flex-row min-h-screen max-container gap-4 justify-center max-md:flex-col-reverse padding-y"
+      className="w-full flex min-h-screen max-container gap-4 justify-center max-sm:flex-col-reverse padding-y"
     >
-      <div className=" relative xl:w-2/5 flex flex-col justify-center items-start max-sm:items-center max-sm:text-center ">
-        <h1 className="text-white text-8xl font-montserrat font-semibold leading-normal max-sm:text-[72px] max-w-[100%]">
+      <div className=" relative xl:w-2/5 flex flex-col justify-center items-start max-sm:items-center max-sm:text-center mt-4">
+        <h1 className="text-white text-8xl font-montserrat font-semibold leading-normal max-sm:text-[72px] ">
           <span className="gradient">Dive</span> Into The Depths Of
           <span className="gradient"> Virtual Reality</span>
         </h1>
@@ -31,11 +31,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex flex-1 justify-center items-center bg-cover bg-center py-14 px-2 mt-4 w-full">
+      <div className="flex flex-1 justify-center items-center bg-cover bg-center px-2 mt-4 max-sm:mt-28 w-full">
         <img
           src={hero}
           alt="hero"
-          className=" object-contain relative z-10 "
+          width={420}
+          height={420}
+          className="object-contain relative z-10 "
         />
       </div>
     </section>

@@ -2,9 +2,9 @@ import React from 'react'
 import { horizontalLine } from '../assets/images'
 import Button from './Button'
 
-const ServiceCard = ({key, img, heading, description}) => {
+const ServiceCard = ({img, heading, description}) => {
   return (
-    <div key={key} className='Card flex flex-1 flex-col justify-center items-center max-w-sm shadow-lg max-sm:w-full rounded-xl'>
+    <div  className='Card flex flex-1 justify-center items-center flex-col w-[80%]  shadow-lg max-sm:w-[80%] rounded-xl m-auto'>
       <div className=' rounded-full object-contain overflow-hidden mt-2'>
         <img src={img} alt="Icon"/>
       </div>

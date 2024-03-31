@@ -1,11 +1,11 @@
 import Nav from "./Components/Nav";
-import { About, Build, Contact, Hero } from "./Sections/index";
+import { About, Build, Construct, Contact, Hero, Technologies } from "./Sections/index";
 function App() {
   return (
     <main className=" relative">
       <Nav />
-      <section className=" xl:padding-l wide:padding-r padding-b bg-primary ">
-        <Hero />
+      <section className="padding bg-primary ">
+        <Hero/>
       </section>
       <section className="padding bg-primary">
         <Contact />
@@ -15,6 +15,12 @@ function App() {
       </section>
       <section className="padding bg-primary">
        <Build/>
+      </section>
+      <section className="padding bg-primary">
+       <Technologies/>
+      </section>
+      <section className="padding bg-primary">
+       <Construct/>
       </section>
     </main>
   );

@@ -1,5 +1,5 @@
 import { location, mail, phone } from "../assets/icons"
-import { Education, outdoor, selfCare, simulation } from "../assets/images"
+import { Education, oculus, outdoor, selfCare, simulation, unity, unrealEngine, vive } from "../assets/images"
 
 export const navLinks = [
     { href: "#about-us", label: "About Us"},
@@ -53,4 +53,23 @@ export const Services = [
         description: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
     },
 
+]
+
+export const technologies = [
+    {
+        id:1,
+        imgUrl:unrealEngine,
+    },
+    {
+        id:2,
+        imgUrl:unity,
+    },
+    {
+        id:3,
+        imgUrl:oculus,
+    },
+    {
+        id:4,
+        imgUrl:vive,
+    },
 ]

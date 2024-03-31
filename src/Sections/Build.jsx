@@ -3,13 +3,13 @@ import { arrowRightAbout } from "../assets/icons";
 import { Services } from "../Constants";
 import ServiceCard from "../Components/ServiceCard";
 
-const Build = () => {
+const  Build = () => {
   return (
     <section id="services">
       <div className="flex justify-evenly items-center py-2 m-auto flex-col sm:flex-row max-w-[80%]">
         <h1
           className=" text-slate-300 font-montserrat sm:text-6xl text-3xl px-2 py-4
-        sm:text-left text-center"
+        sm:text-left text-center leading-normal"
         >
           <span className=" text-white font-semibold">WHY BUILD</span> <br />{" "}
           WITH HYDRA?
@@ -30,7 +30,7 @@ const Build = () => {
 
       <div className="mt-16 grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 lg:grid-col-4 gap-14 sm:gap-4 rounded-md ">
         {Services.map((items) => (
-          <ServiceCard key={items.id} img={items.imgURl} heading = {items.heading} description={items.description}/>
+          <ServiceCard img={items.imgURl} heading = {items.heading} description={items.description}/>
         ))}
       </div>
 

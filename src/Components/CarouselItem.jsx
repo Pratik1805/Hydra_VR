@@ -1,6 +1,7 @@
-const CarouselItem = ({ item, }) => {
+const CarouselItem = ({ item}) => {
   return (
-    <div className=" px-2 py-0 inline-flex items-center justify-center h-full w-full mt-2">
+    <div className=" px-2 py-0 inline-flex items-center justify-center h-full w-full mt-2"
+    key={item.name}>
       <div className=" px-2">
         <img src={item.imgURl} className="w-[72px] h-[72px]" />
       </div>

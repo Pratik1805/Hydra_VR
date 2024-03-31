@@ -43,7 +43,7 @@
       @apply sm:px-16 px-8 sm:py-24 py-12;
     }
   
-    .padding-x {
+    /* .padding-x {
       @apply sm:px-16 px-8;
     }
   
@@ -65,7 +65,7 @@
   
     .padding-b {
       @apply sm:pb-24 pb-12;
-    }
+    } */
   
     .info-text {
       @apply font-montserrat text-slate-gray text-lg leading-7;
