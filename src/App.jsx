@@ -1,5 +1,5 @@
 import Nav from "./Components/Nav";
-import { About, Build, Construct, Contact, Hero, Technologies } from "./Sections/index";
+import { About, Build, Construct, Contact, Hero, Subscribe, Technologies } from "./Sections/index";
 function App() {
   return (
     <main className=" relative">
@@ -21,6 +21,9 @@ function App() {
       </section>
       <section className="padding bg-primary">
        <Construct/>
+      </section>
+      <section className="padding bg-primary">
+       <Subscribe/>
       </section>
     </main>
   );

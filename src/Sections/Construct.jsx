@@ -1,5 +1,10 @@
 import React from "react";
 import { arrowRightAbout } from "../assets/icons";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
 const Construct = () => {
   return (
@@ -26,12 +31,64 @@ const Construct = () => {
         </p>
       </div>
 
-      <div className="bg-construct bg-center bg-cover">
-        <div className=" ">
-
-        </div>
-        
-      </div>
+      <VerticalTimeline lineColor="linear-gradient(#343045,#C0B7E8,#8176AF,#343045)">
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: "linear-gradient(45deg, #8176AF, #C0B7E8)",
+            color: "#fff",
+          }}
+          iconStyle={{ background: " #8176AF" }}
+          contentArrowStyle={{ borderRight: "7px solid  #C0B7E8" }}
+          date="STEP-01"
+        >
+          <h3 className="vertical-timeline-element-title font-bold text-3xl">
+            3D Conception & Design
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: "linear-gradient(45deg, #C0B7E8, #8176AF)",
+            color: "#fff",
+          }}
+          iconStyle={{ background: " #8176AF" }}
+          contentArrowStyle={{ borderRight: "7px solid  #C0B7E8" }}
+          date="STEP-02"
+        >
+          <h3 className="vertical-timeline-element-title font-bold text-3xl">
+            Interaction Design
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: "linear-gradient(45deg, #8176AF, #C0B7E8)",
+            color: "#fff",
+          }}
+          iconStyle={{ background: " #8176AF" }}
+          contentArrowStyle={{ borderRight: "7px solid  #C0B7E8" }}
+          date="STEP-03"
+        >
+          <h3 className="vertical-timeline-element-title font-bold text-3xl">
+            VR World User Testing
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: "linear-gradient(45deg,#C0B7E8, #8176AF)",
+            color: "#fff",
+          }}
+          iconStyle={{ background: " #8176AF" }}
+          contentArrowStyle={{ borderRight: "7px solid  #C0B7E8" }}
+          date="STEP-04"
+        >
+          <h3 className="vertical-timeline-element-title font-bold text-3xl">
+            Hydra VR Deploy
+          </h3>
+        </VerticalTimelineElement>
+      </VerticalTimeline>
     </section>
   );
 };

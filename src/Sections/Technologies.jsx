@@ -6,7 +6,7 @@ const Technologies = () => {
   return (
     <div
       id="technologies"
-      className=" flex items-center justify-center flex-col"
+      className=" flex items-center justify-center flex-col w-full"
     >
       <div className="rounded-full sm:w-[80%] w-full px-2 py-4 contact shadow-lg ">
         <h1 className=" text-slate-300 text-center sm:text-6xl text-3xl px-2 py-2 leading-normal">
@@ -24,8 +24,8 @@ const Technologies = () => {
             src={items.imgUrl}
             alt=""
             key={items.id}
-            width={256}
-            height={256}
+            width={265}
+            height={156}
           />
         ))}
       </div>

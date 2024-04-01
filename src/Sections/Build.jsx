@@ -30,7 +30,7 @@ const  Build = () => {
 
       <div className="mt-16 grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 lg:grid-col-4 gap-14 sm:gap-4 rounded-md ">
         {Services.map((items) => (
-          <ServiceCard img={items.imgURl} heading = {items.heading} description={items.description}/>
+          <ServiceCard key={items.id} img={items.imgURl} heading = {items.heading} description={items.description}/>
         ))}
       </div>
 
