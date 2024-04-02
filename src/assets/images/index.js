@@ -11,6 +11,7 @@ import unrealEngine from './unreal_engine.svg'
 import vive from './vive.svg'
 import verticalLine from './vertical_Line.svg'
 import horizontalLine from './horizontal_line.svg'
+import lineSubscribe from './line_subscribe.svg'
 
 export{
     about,
@@ -26,4 +27,5 @@ export{
     vive,
     verticalLine,
     horizontalLine,
+    lineSubscribe,
 }

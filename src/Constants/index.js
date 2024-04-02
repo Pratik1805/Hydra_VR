@@ -1,4 +1,4 @@
-import { location, mail, phone } from "../assets/icons"
+import { LinkedIn, facebook, instagram, location, mail, phone, pinterest, twitter } from "../assets/icons"
 import { Education, oculus, outdoor, selfCare, simulation, unity, unrealEngine, vive } from "../assets/images"
 
 export const navLinks = [
@@ -6,6 +6,7 @@ export const navLinks = [
     { href: "#services", label: "Services"},
     { href: "#technologies", label: "Technologies"},
     { href: "#how-to", label: "How To"},
+    { href: "#join", label: "Join Hydra"},
 ]
 
 export const contact = [
@@ -73,3 +74,35 @@ export const technologies = [
         imgUrl:vive,
     },
 ]
+export const footerLinks = [
+
+    {
+        title: "Nav",
+        links: [
+            { name: "ABOUT", href: "#about-us" },
+            { name: "SERVICES",  href: "#services" },
+            { name: "Technologies", href: "#technologies"},
+            { name: "HOW TO", href: "#how-to"},
+            { name: "JOIN HYDRA",  href: "#join" },
+        ],
+    },
+    {
+        title:"help",
+        links:[
+            {name:"F.A.Q.",href: "/"},
+            {name:"SITEMAP",href: "/"},
+            {name:"CONDITIONS",href: "/"},
+            {name:"LICENSES",href: "/"},
+        ]
+    },
+
+];
+
+export const socialMedia = [
+    { src: facebook, alt: "facebook logo" },
+    { src: twitter, alt: "twitter logo" },
+    { src: instagram, alt: "instagram logo" },
+    { src: LinkedIn, alt: "LinkedIn logo" },
+    { src: pinterest, alt: "Pinterest logo" },
+    { src: mail, alt: "Mail logo" },
+]; 

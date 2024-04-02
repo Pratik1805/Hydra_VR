@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = ({label, backgroundColor, border,fullWidth}) => {
   return (
-    <button className={`flex justify-center items-center px-3 py-3 border text-lg  text-white font-montserrat 
+    <button className={`flex justify-center items-center px-5 py-3 border text-lg  text-white font-montserrat 
     ${backgroundColor 
         ? `${backgroundColor} ${border}`
         : "bg-button-gradient border-primary" 
