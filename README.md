@@ -35,10 +35,6 @@ To get started with the project, follow these steps:
 
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before getting started.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Mention
 
 This project is developed using the figma file provided by @zinefalouti on figma community
