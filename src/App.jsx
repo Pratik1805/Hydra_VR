@@ -4,7 +4,7 @@ function App() {
   return (
     <main className=" relative">
       <Nav />
-      <section className="padding bg-primary ">
+      <section className=" padding bg-primary ">
         <Hero/>
       </section>
       <section className="padding bg-primary">
@@ -25,7 +25,7 @@ function App() {
       <section className="padding bg-primary">
        <Subscribe/>
       </section>
-      <section className=" bg-primary padding-x padding-t pb-8">
+      <section className=" bg-primary padding pb-8">
       <Footer/>
     </section>
     </main>

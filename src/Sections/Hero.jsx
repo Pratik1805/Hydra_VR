@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       id="Home"
-      className="w-full flex min-h-screen max-container gap-4 justify-center max-sm:flex-col-reverse padding-y"
+      className="w-full flex  max-container gap-4 justify-center max-sm:flex-col-reverse padding-y"
     >
       <div className=" relative xl:w-2/5 flex flex-col justify-center items-start max-sm:items-center max-sm:text-center mt-4">
         <h1 className="text-white text-8xl font-montserrat font-semibold leading-normal max-sm:text-[72px] ">

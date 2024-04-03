@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className=" max-container">
       <div className="flex justify-between lg:items-start items-center gap-20 flex-wrap max-lg:flex-col">
 
-          <img src={hydraLogo} alt="Hydra logo" width={150} height={46} className=" m-auto" />
+          <img src={hydraLogo} alt="Hydra logo" width={150} height={46} />
         
         <img src={verticalLine} alt="vertical line" className=" max-lg:hidden"/>
 
@@ -34,11 +34,11 @@ const Footer = () => {
           ))}
         </div>
 
-        <div className=" flex flex-col gap-2 px-2 py-4 items-center justify-center">
+        <div className=" flex flex-col gap-2 px-2 py-4 items-center justify-center max-lg:w-full">
           <h3 className=" font-montserrat text-white font-semibold ">
             SOCIALIZE WITH HYDRA
           </h3>
-          <div className="flex items-center gap-5 mt-4 px-2 py-4">
+          <div className="flex items-center gap-5 mt-4 px-2 py-4 max-lg:w-full">
             {socialMedia.map((item) => (
               <div className="flex justify-center items-center w-12 h-12 rounded-full">
                 <img src={item.src} alt={item.alt} width={34} height={34} />

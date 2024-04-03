@@ -6,18 +6,18 @@ import Button from './Button'
 
 const  Nav = () => {
   return (
-    <header className='bg-primary padding-x py-2 absolute z-10 w-full'>
-        <nav className='flex max-container justify-between items-center'>
+    <header className='bg-primary padding-x py-8 absolute z-10 w-full'>
+        <nav className='flex max-container justify-between items-center '>
             <div className='flex items-center gap-4'>
             <a href="/">
-                <img src={hydraLogo} alt="hydra-logo"width={102} height={103} />
+                <img src={hydraLogo} alt="hydra-logo"width={130} height={29} />
             </a>
             <a href="/">
                 <img src={Hydra} alt="logo" width={76} height={46} />
             </a>
             </div>
 
-            <ul className='flex flex-1 justify-center items-center gap-16 max-xl:hidden'>
+            <ul className='flex flex-1 justify-center items-center gap-16 max-lg:hidden'>
                 {navLinks.map((item) => (
                     <li>
                         <a href={item.href} key={item.label}
@@ -33,7 +33,7 @@ const  Nav = () => {
                 <Button label="JOIN HYDRA"  border = "bg-primary"/>
             </div>
 
-            <div className='max-xl:block hidden'>
+            <div className='max-lg:block hidden'>
                 <img src={hamburger} alt="hamburger" 
                 width={25}
                 height={25}
